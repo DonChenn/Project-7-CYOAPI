@@ -9,7 +9,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/_9da926c2b94d95008a9e3b2f60bfdd3"
-        android:label="PokeGen"
+        android:label="PokeRecycle"
         android:roundIcon="@drawable/_9da926c2b94d95008a9e3b2f60bfdd3"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project6PokemonRecyclerView"
