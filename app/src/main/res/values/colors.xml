@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="pokemon_blue">#3B4CCA</color>
+    <color name="pokemon_red">#CC0000</color>
+    <color name="pokemon_bright_red">#FF0000</color>
+    <color name="pokemon_yellow">#FFDE00</color>
+    <color name="pokemon_dark_yellow">#B3A125</color>
+
+
+
 </resources>

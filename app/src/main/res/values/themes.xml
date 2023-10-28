@@ -3,6 +3,19 @@
     <style name="Base.Theme.Project6PokemonRecyclerView" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/pokemon_red</item>
+        <item name="colorPrimaryVariant">@color/pokemon_bright_red</item>
+        <item name="colorOnPrimary">@color/pokemon_dark_yellow</item>
+        <item name="colorSecondary">@color/pokemon_red</item>
+        <item name="colorSecondaryVariant">@color/pokemon_dark_yellow</item>
+        <item name="colorOnSecondary">@color/pokemon_blue</item>
+        <item name="android:statusBarColor">@color/pokemon_bright_red</item>
+
+    </style>
+    <style name="pokemonStyle" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/pokemon_blue</item>
+        <item name="android:padding">8dp</item>
     </style>
 
     <style name="Theme.Project6PokemonRecyclerView" parent="Base.Theme.Project6PokemonRecyclerView" />

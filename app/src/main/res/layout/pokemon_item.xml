@@ -20,20 +20,25 @@
         android:id="@+id/pokemonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="Pokemon Name"
+        android:textColor="@color/pokemon_blue"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textAppearance="@style/pokemonStyle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/pokemon_image"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pokemon_image" />
 
     <TextView
         android:id="@+id/pokemonType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="Pokemon Type"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/pokemonName"
+        android:textSize="18sp"
+        android:textColor="@color/pokemon_red"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/pokemonName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
